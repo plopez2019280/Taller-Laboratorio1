@@ -129,7 +129,6 @@ body {
 }
 
 .nav__menu {
-    background-color: var(--orange);
     width: 35px;
     cursor: pointer;
     z-index: 100;
@@ -310,7 +309,7 @@ body {
 
 .statistics {
     background-image: linear-gradient(#19181bc0, #171719e3),
-        url('../assets/xdd.png');
+        url('/assets/resources/img/xdd.png');
     background-size: cover;
     background-position: center;
     color: #fff;

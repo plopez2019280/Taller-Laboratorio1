@@ -30,14 +30,14 @@
             <h2>Proyecto 1: Juego del ahorcado</h2>
             <p>Descripción: Desarrollo de una página web cuyo objetivo es entretener al usuario.</p>
             <ul>
-                <li>Tecnologías Utilizadas: HTML, CSS</li>
+                <li>Tecnologías Utilizadas: HTML, CSS, JAVASCRIPT</li>
                 <br>
-
                 <li>Optimización de procesos básicos.</li>
                 <br>
                 <li>Interfaz de usuario intuitiva y fácil de usar.</li>
                 <br>
-                <li><a href="/assets/resources/proyects/ahorcado.zip" download="ahorcado.zip" class="boton-descarga"> Descargar juego del ahorcado</a></li>
+                <a href="/assets/resources/proyects/ahorcado.zip" download="ahorcado.zip" class="boton-descarga">
+                    Descargar juego del ahorcado</a>
             </ul>
             </p>
         </article>
@@ -52,7 +52,8 @@
                 <br>
                 <li>Interfaz de usuario intuitiva y fácil de usar.</li>
                 <br>
-                <li><a href="/assets/resources/proyects/Calculadora.zip" download="Calculadora.zip" class="boton-descarga"> Descargar Calculadora</a></li>
+                <a href="/assets/resources/proyects/Calculadora.zip" download="Calculadora.zip" class="boton-descarga">
+                    Descargar Calculadora</a>
             </ul>
             </p>
         </article>
@@ -64,7 +65,7 @@
         <ul class="lenguajes-lista">
     </section>
 
-    <section>   
+    <section>
         <p>Pon tus datos para contactarte</p>
         <form action="javascript:void(0);" onsubmit="enviarFormulario()">
             <label for="nombre">Nombre:</label>
@@ -75,18 +76,17 @@
 
             <button id="botonEnviar">Enviar Datos</button>
         </form>
-    </div> 
+        </div>
     </section>
 
     <script>
         function enviarFormulario() {
             document.getElementById('botonEnviar').setAttribute('disabled', 'true');
             document.querySelector('form').classList.add('cargando');
-            window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' ;
+            window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
         }
     </script>
 
 </body>
 
 </html>
-
